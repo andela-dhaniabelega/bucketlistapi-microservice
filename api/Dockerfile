@@ -30,4 +30,4 @@ RUN pip install -r requirements.txt
 EXPOSE 5000
 
 # start the app server
-CMD python /bucketlist/api/manage.py runserver
+CMD python /bucketlistapi-microservice/api/manage.py runserver
